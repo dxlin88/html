@@ -5,11 +5,11 @@
 // let i = 0;
 // console.log(rootUrl) 
 // player.src= rootUrl + songs[i];
-player.addEventListener('ended', function () {  
-    i++
-    player.src = rootUrl + songs[i]//换地址
-    player.play()
-}, false);
+// player.addEventListener('ended', function () {  
+//     i++
+//     player.src = rootUrl + songs[i]//换地址
+//     player.play()
+// }, false);
 function shuffle() {
     let i = songs.length;
     while (i) {
