@@ -1,0 +1,74 @@
+<!-- 摘自https://www.jb51.net/article/204790.htm -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title>JS音乐播放器</title>
+ <!-- <link rel="stylesheet" href="MPIDCSS/public.css" > -->
+ <link rel="stylesheet" href="MPIDCSS/css.css" >
+ </head>
+ <body>
+ <!-- 音乐播放器 -->
+ <div class="music">
+ <!-- 歌曲信息 -->
+ <div class="word">
+ <div class="clears"></div>
+ <!-- 歌曲封面 -->
+ <div class="img">
+ <img src="img/1.jpg" id="img" alt="" /></div>
+ <!-- 歌曲封面 end -->
+ </div>
+ <!-- 歌曲信息 end -->
+ <!-- 信息和音量 -->
+ <div class="mtv">
+ <!-- 文字信息 -->
+ <div class="text">
+ <h1 id="sName">歌曲名称</h1>
+ <h2 id="singer">歌手</h2>
+ </div>
+ <!-- 文字信息 end -->
+ <!-- 音量控制 -->
+ <div class="vol01">
+ <div class="volTop" id="volText">
+ 100%
+ </div>
+ <div class="volBottom">
+ <div class="volPro" id="vol">
+ <div class="volColor" id="volCol"></div>
+ <div class="volBlock" id="volB"></div>
+ </div>
+ <div class="vImg">
+ <img src="img/next.png" alt="" />
+ </div>
+ </div>
+ </div>
+ <!-- 音量控制 end -->
+ </div>
+ <!-- 信息和音量 end -->
+ <!-- 进度条 -->
+ <div class="progress">
+ <span class="cTime time" id="cTime">00:00</span> <!-- 当前时间 -->
+ <span class="tTime time" id="tTime">00:00</span> <!-- 总的时间 -->
+ <div class="clears"></div>
+ <!-- 进度条小 -->
+ <div class="proBar" id="songPro">
+ <div class="proColor" id="proBar"></div>
+ </div>
+ <!-- 进度条小 end -->
+ </div>
+ <!-- 进度条 end -->
+ <!-- 控制按钮 -->
+ <div class="ctrls">
+ <div class="btn">
+ <img src="img/prev.png" class="prevBtn" id="prevBtn" alt="" />
+ <img src="img/next.png" class="nextPrev" id="nextBtn" alt="" />
+ </div>
+ <button type="button" class="playBtn" id="playBtn"><img src="img/next.png" alt="" /></button>
+ </div>
+ <!-- 控制按钮 end -->
+ <audio src="#" id="music"></audio>
+ </div>
+ <!-- 音乐播放器 end -->
+ <script src="MPIDJS/js.js"></script>
+ </body>
+</html>

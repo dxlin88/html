@@ -1,0 +1,213 @@
+html {
+    background: #92b991;
+   }
+   
+   .music {
+    width: 670px;
+    height: 400px;
+    background: url("../img/1.jpg") no-repeat center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px #3d5e59 solid;
+    margin-top: 150px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+   }
+   
+   .img {
+    width: 200px;
+    height: 200px;
+    border: 2px #fff solid;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-left: 35%;
+   }
+   
+   .mtv {
+    width: 670px;
+    position: relative;
+   }
+   
+   .text {
+    color: #fff;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+   }
+   
+   .text>h1 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: normal;
+   }
+   
+   .text>h2 {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.7;
+   }
+   
+   .vol01 {
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    right: 30px;
+    top: -8%;
+   }
+   
+   .volPro {
+    width: 100%;
+    height: 5px;
+    margin-top: 44.5px;
+    border: 1px #fff solid;
+    border-radius: 5px;
+   }
+   
+   .volColor {
+    height: 5px;
+    width: 100%;
+    color: #fff;
+    pointer-events: none;
+   }
+   
+   .volBlock {
+    pointer-events: none;
+    position: absolute;
+    top: 42px;
+    width: 10px;
+    height: 10px;
+    border: 1px #fff solid;
+    background: #f4f3f3;
+    border-radius: 100%;
+    left: 100%;
+    margin-left: -5px;
+   }
+   
+   .volTop {
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   }
+   
+   .vImg {
+    position: absolute;
+    top: 38px;
+    left: -26px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   }
+   
+   .time {
+    font-family: "Microsoft YaHei";
+    font-size: 10px;
+    line-height: 1.5;
+    color: #fff;
+    margin-top: 25px;
+   }
+   
+   .cTime {
+    float: left;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   }
+   
+   .tTime {
+    float: right;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   }
+   
+   .progress {
+    margin-left: 30px;
+    margin-right: 30px;
+   }
+   
+   .proBar {
+    width: 100%;
+    height: 2px;
+    overflow: hidden;
+    background: #B292FF;
+    margin-top: 5px;
+    border-radius: 5px;
+   }
+   
+   .proColor {
+    height: 7px;
+    width: 30%;
+    background: #fff;
+    pointer-events: none;
+   }
+   
+   .ctrls {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+   }
+   
+   .btn {
+    position: absolute;
+    top: 50px;
+   }
+   
+   .nextPrev {
+    right: 0;
+    margin-left: 200px;
+    opacity: 0.1;
+    transition: all 0.3s;
+   }
+   
+   .nextPrev:hover {
+    opacity: 0.5;
+   }
+   
+   .prevBtn {
+    left: 0;
+    opacity: 0.1;
+    transition: all 0.3s;
+   }
+   
+   .prevBtn:hover {
+    opacity: 0.5;
+   }
+   
+   .playBtn {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    opacity: 0.3;
+    position: absolute;
+    top: 52px;
+    left: 250px;
+    margin-left: -14px;
+    transition: all 0.3s;
+   }
+   
+   
+   .playBtn:hover {
+    opacity: 0.5;
+    background: #46847b;
+   }
